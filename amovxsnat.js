@@ -5,7 +5,8 @@ const solve = () => {
 
     let lokacia=input.split('\n')
     let countMoon=0
-    let countVenera=0
+    let countVenera=1
+
 
     for(i=1;i<=n;i++){
         if(lokacia[i].trim() =="Moon")
